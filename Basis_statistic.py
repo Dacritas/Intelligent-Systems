@@ -75,14 +75,14 @@ tab1 = pd.crosstab(index=data["AnnualIncome(k$)"],columns="frecuency")
 
 #Make Annual Income Histogram
 
-plt.subplot(2, 2, 2)
+plt.subplot(2, 2, 1)
 plt.title('\n Annual Income Histrogram')
 tab2 = pd.crosstab(index=data["AnnualIncome(k$)"], columns="frecuency")
 plt.bar(tab1.index,tab1["frecuency"])
 plt.savefig("Annual Income.png")
 
 #Make Spending Score Histogram
-plt.subplot(2, 2, 3)
+plt.subplot(2, 2, 1)
 plt.title('\n\n\nSpending Score Histogram')
 tab3 = pd.crosstab(index=data["SpendingScore(1-100)"],columns="frecuency")
 plt.bar(tab2.index,tab2["frecuency"])
