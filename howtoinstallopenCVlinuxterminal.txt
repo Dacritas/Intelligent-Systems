@@ -6,7 +6,7 @@ How to install OpenCV with pip in linux Terminal
 
 python3 -m pip install opencv-python
 
-If you are using python3 or less, change in the line command.
+If you are using python3 or less, change it in the line command.
 
 ****************************
 If you want to install openCV on Raspberry Pi run follow command:
